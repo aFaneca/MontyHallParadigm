@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="ParagidmaMontyHall">
+    <output-path>$PROJECT_DIR$/out/artifacts/ParagidmaMontyHall</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="GUI.Main" />
+        <option name="description" value="" />
+        <option name="height" value="800" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Paradigma Monty Hall" />
+        <option name="vendor" value="António Faneca" />
+        <option name="version" value="1.0" />
+        <option name="width" value="1500" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ProblemaMontyHall.jar">
+        <element id="module-output" name="ProblemaMontyHall" />
+      </element>
+    </root>
+  </artifact>
+</component>
