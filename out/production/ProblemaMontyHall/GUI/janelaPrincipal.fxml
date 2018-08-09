@@ -257,7 +257,7 @@
             <PieChart fx:id="tabelaCircular" prefHeight="329.0" prefWidth="1256.0" title="Hipótese A vs Hipótese B" visible="false" />
             <AnchorPane prefHeight="16.0" prefWidth="1256.0">
                <children>
-                  <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" text="me@afaneca.com | Paradigma de Monty Hall - v1.0" textAlignment="RIGHT" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="10.0" />
+                  <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" text="me@afaneca.com | Paradigma de Monty Hall - v1.3" textAlignment="RIGHT" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="10.0" />
                </children>
                <VBox.margin>
                   <Insets bottom="-289.0" />
