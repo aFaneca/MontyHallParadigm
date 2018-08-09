@@ -7,11 +7,13 @@ public class Porta {
     private static int i = 0;
     private boolean temCarro;
     private boolean aberta;
+    private boolean selecionada;
 
     public Porta(boolean temCarro){
         this.id = i++;
         this.temCarro = temCarro;
         this.aberta = false;
+        this.selecionada = false;
     }
 
 
@@ -27,6 +29,14 @@ public class Porta {
         this.aberta = aberta;
     }
 
+
+    public boolean isSelecionada() {
+        return selecionada;
+    }
+
+    public void setSelecionada(boolean selecionada) {
+        this.selecionada = selecionada;
+    }
 
     @Override
     public boolean equals(Object o) {

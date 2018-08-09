@@ -3,6 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressIndicator?>
 <?import javafx.scene.control.Spinner?>
@@ -13,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Rectangle?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1500.0" stylesheets="@janelaPrincipal.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1500.0" stylesheets="@janelaPrincipal.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.janelaPrincipalController">
    <left>
       <VBox alignment="CENTER" prefHeight="823.0" prefWidth="244.0" styleClass="menu-esquerda" stylesheets="@janelaPrincipal.css" BorderPane.alignment="CENTER">
          <children>
@@ -57,6 +58,20 @@
                   <Insets top="50.0" />
                </VBox.margin>
             </ProgressIndicator>
+            <VBox fx:id="vBox_tentar" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #35a53a;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="272.0" style="-fx-font-size: 18;" text="Não confia nos resultados?" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+                  <Button fx:id="botao_tentar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#acaoDoBotao_tentar" prefHeight="31.0" prefWidth="157.0" text="Tente Você Mesmo!" textAlignment="CENTER" />
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </VBox>
          </children>
          <opaqueInsets>
             <Insets top="-1.0" />
@@ -239,10 +254,10 @@
                   <Insets />
                </VBox.margin>
             </HBox>
-            <PieChart fx:id="tabelaCircular" prefHeight="329.0" prefWidth="1256.0" title="Hipótese A vs Hipótese B" />
+            <PieChart fx:id="tabelaCircular" prefHeight="329.0" prefWidth="1256.0" title="Hipótese A vs Hipótese B" visible="false" />
             <AnchorPane prefHeight="16.0" prefWidth="1256.0">
                <children>
-                  <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" text="me@afaneca.com | Paradigma de Monty Hall - v1.0" textAlignment="RIGHT" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="10.0" />
+                  <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" text="me@afaneca.com | Paradigma de Monty Hall - v1.3" textAlignment="RIGHT" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="10.0" />
                </children>
                <VBox.margin>
                   <Insets bottom="-289.0" />

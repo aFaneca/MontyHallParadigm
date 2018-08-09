@@ -10,18 +10,23 @@ import Modelo.*;
 
 public class Main extends Application {
 
+    Scene janelaPrincipal;
+    Scene janelaTestes;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("janelaPrincipal.fxml"));
+
+        Parent jPrincipalParent = FXMLLoader.load(getClass().getResource("janelaPrincipal.fxml"));
+        Parent jTestesParent = FXMLLoader.load(getClass().getResource("janelaTestes.fxml"));
+        janelaPrincipal = new Scene(jPrincipalParent, 1500, 800);
+        janelaTestes = new Scene(jTestesParent, 1500, 800);
         primaryStage.setTitle("O Paradigma de Monty Hall - Tira-teimas!");
-        primaryStage.setScene(new Scene(root, 1500, 800));
+        primaryStage.setScene(janelaTestes);
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
-        //Experiencia exp = new Experiencia(2,1,3);
-        //Estatistica stat = new Estatistica(1,1,3);
         launch(args);
 
 
