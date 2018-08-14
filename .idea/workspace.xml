@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ParagidmaMontyHall.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParagidmaMontyHall/ProblemaMontyHall.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ParagidmaMontyHall/ProblemaMontyHall.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/janelaTestesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/janelaTestesController.java" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,7 +89,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="374">
               <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,19 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="janelaTestes.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/janelaTestes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Experiencia.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modelo/Experiencia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="748">
               <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,8 +116,8 @@
       <file leaf-file-name="Simulacao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modelo/Simulacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="96" column="5" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="2002">
+              <caret line="96" column="5" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2864#2865#0" expanded="true" />
@@ -135,7 +130,7 @@
       <file leaf-file-name="Testes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modelo/Testes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="484">
               <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,25 +144,11 @@
       <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modelo/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="220">
               <caret line="13" column="30" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
                 <element signature="method#gerarNrAleatorio#0;class#Teste#0" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#3067#3068#0" expanded="true" />
-                <element signature="e#3099#3100#0" expanded="true" />
-                <element signature="e#3150#3151#0" expanded="true" />
-                <element signature="e#3192#3193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,11 +157,9 @@
       <file leaf-file-name="Porta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modelo/Porta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="572">
               <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
                 <element signature="e#648#649#0" expanded="true" />
                 <element signature="e#703#704#0" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -192,16 +171,12 @@
       <file leaf-file-name="janelaTestesController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI/janelaTestesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+            <state relative-caret-position="296">
+              <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2121#2663#0" expanded="true" />
-                <element signature="e#2662#2663#0" expanded="true" />
-                <element signature="e#5460#5461#0" expanded="true" />
-                <element signature="e#5515#5516#0" expanded="true" />
-                <element signature="e#5563#5564#0" expanded="true" />
-                <element signature="e#5609#5610#0" expanded="true" />
+                <element signature="e#2435#3289#0" expanded="true" />
+                <element signature="e#3288#3289#0" expanded="true" />
                 <element signature="method#addPorta#0;class#janelaTestesController#0" />
               </folding>
             </state>
@@ -210,22 +185,22 @@
       </file>
       <file leaf-file-name="janelaPrincipal.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1496">
               <caret line="68" column="141" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="144" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file leaf-file-name="janelaTestes.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/janelaTestes.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -313,52 +288,30 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ParadigmaMontyHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParadigmaMontyHall" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ParadigmaMontyHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParadigmaMontyHall" type="462c0819:PsiDirectoryNode" />
               <item name="Recursos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ParadigmaMontyHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParadigmaMontyHall" type="462c0819:PsiDirectoryNode" />
               <item name="Recursos" type="462c0819:PsiDirectoryNode" />
-              <item name="Protótipo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MontyHallParadigm-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MontyHallParadigm-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="Imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,11 +457,12 @@
       <workItem from="1533139962891" duration="288000" />
       <workItem from="1533220970017" duration="9243000" />
       <workItem from="1533767727841" duration="7871000" />
+      <workItem from="1534262041203" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51918000" />
+    <option name="totallyTimeSpent" value="53402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,38 +478,38 @@
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49946293" weight="0.32914287" />
-      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49731472" weight="0.36914286" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49516648" weight="0.36914286" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5107411" side_tool="true" visible="true" weight="0.24114285" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51181525" side_tool="true" visible="true" weight="0.24114285" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48818475" weight="0.24114285" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49838883" weight="0.2502857" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48925886" weight="0.24114285" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4989259" weight="0.22057143" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1122449" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.11385607" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975295" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24973147" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="15" sideWeight="0.49194413" weight="0.39885715" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="JetGradle" order="5" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Changes" order="9" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Profiler" order="10" />
-      <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
     </layout>
   </component>
@@ -580,7 +534,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GUI/janelaTestesController.java</url>
-          <line>107</line>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
@@ -596,27 +550,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Modelo/Porta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Simulacao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,9 +564,8 @@
           <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#apresentadorAbrePorta#0;class#Simulacao#0" />
-            <element signature="method#mudarPortaEscolhida#0;class#Simulacao#0" />
-            <element signature="method#gerarNrAleatorio#0;class#Simulacao#0" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,8 +615,6 @@
         <state relative-caret-position="880">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -686,12 +623,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Simulacao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -699,9 +636,8 @@
           <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#apresentadorAbrePorta#0;class#Simulacao#0" />
-            <element signature="method#mudarPortaEscolhida#0;class#Simulacao#0" />
-            <element signature="method#gerarNrAleatorio#0;class#Simulacao#0" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,9 +688,8 @@
           <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#apresentadorAbrePorta#0;class#Simulacao#0" />
-            <element signature="method#mudarPortaEscolhida#0;class#Simulacao#0" />
-            <element signature="method#gerarNrAleatorio#0;class#Simulacao#0" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -764,8 +699,6 @@
         <state relative-caret-position="880">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -774,12 +707,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,9 +754,8 @@
           <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#apresentadorAbrePorta#0;class#Simulacao#0" />
-            <element signature="method#mudarPortaEscolhida#0;class#Simulacao#0" />
-            <element signature="method#gerarNrAleatorio#0;class#Simulacao#0" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -833,8 +765,6 @@
         <state relative-caret-position="880">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -843,12 +773,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -890,28 +820,25 @@
           <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#apresentadorAbrePorta#0;class#Simulacao#0" />
-            <element signature="method#mudarPortaEscolhida#0;class#Simulacao#0" />
-            <element signature="method#gerarNrAleatorio#0;class#Simulacao#0" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Porta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -930,12 +857,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipalController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,15 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getNrSucessosMudar#0;class#Estatistica#0" />
-            <element signature="method#getNrInsucessosMudar#0;class#Estatistica#0" />
-            <element signature="method#getNrSucessosSemMudar#0;class#Estatistica#0" />
-            <element signature="method#getNrInsucessosSemMudar#0;class#Estatistica#0" />
-            <element signature="method#getMediaTaxaSucessoMudar#0;class#Estatistica#0" />
-            <element signature="method#getMediaTaxaSucessoSemMudar#0;class#Estatistica#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,20 +916,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaPrincipal.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="68" column="141" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="144" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaTestes.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1022,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Testes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="484">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1034,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Experiencia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="748">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1050,11 +968,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Porta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="572">
           <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -1064,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="374">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1074,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Simulacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="2002">
+          <caret line="96" column="5" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2864#2865#0" expanded="true" />
@@ -1086,41 +1002,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modelo/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="220">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
             <element signature="method#gerarNrAleatorio#0;class#Teste#0" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#3067#3068#0" expanded="true" />
-            <element signature="e#3099#3100#0" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Recursos/Imagens/carro.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/janelaTestesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+        <state relative-caret-position="296">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2121#2663#0" expanded="true" />
-            <element signature="e#2662#2663#0" expanded="true" />
-            <element signature="e#5460#5461#0" expanded="true" />
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#5563#5564#0" expanded="true" />
-            <element signature="e#5609#5610#0" expanded="true" />
+            <element signature="e#2435#3289#0" expanded="true" />
+            <element signature="e#3288#3289#0" expanded="true" />
             <element signature="method#addPorta#0;class#janelaTestesController#0" />
           </folding>
         </state>

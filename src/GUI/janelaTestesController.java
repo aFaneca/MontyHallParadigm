@@ -1,5 +1,6 @@
 package GUI;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -65,9 +66,9 @@ public class janelaTestesController implements Initializable{
 
     @FXML
     public void initialize(URL location, ResourceBundle resources) {
-        img_porta = new Image("https://endurancedoors.co.uk/wp-content/uploads/Kit-Chartwell-Green.jpg");
-        img_carro = new Image("https://www.misskatecuttables.com/uploads/shopping_cart/7778/large_car.png");
-        img_cabra = new Image("http://cdn.onlinewebfonts.com/svg/img_438625.png");
+        img_porta = new Image(new File("Recursos/Imagens/porta_fechada.png").toURI().toString(), true);
+        img_carro = new Image(new File("Recursos/Imagens/porta_carro.png").toURI().toString(), true);
+        img_cabra = new Image(new File("Recursos/Imagens/porta_cabra.png").toURI().toString(), true);
 
 
         testes = new Testes(1, 3);
