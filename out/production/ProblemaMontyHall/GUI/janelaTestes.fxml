@@ -41,6 +41,9 @@
                            <font>
                               <Font size="42.0" />
                            </font>
+                           <graphic>
+                              <Button fx:id="botao_tentarNovamente" mnemonicParsing="false" onAction="#acao_botaoTentarNovamente" text="Tentar Novamente" />
+                           </graphic>
                         </Label>
                      </children>
                   </StackPane>

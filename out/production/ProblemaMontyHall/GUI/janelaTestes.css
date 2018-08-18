@@ -24,8 +24,9 @@
 .img_porta{
     margin: 10px 50px 50px 50px;
     -fx-fill: red;
+    -fx-opacity: 0.5;
 }
 
 .img_portaSelecionada{
-    -fx-opacity: 0.5;
+    -fx-opacity: 1.0;
 }

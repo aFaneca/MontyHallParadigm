@@ -57,15 +57,19 @@ public class janelaTestesController implements Initializable{
     private Button botao_alterarEscolhaInicial;
 
     @FXML
+    private Button botao_tentarNovamente;
+
+    @FXML
     private StackPane sp_CentroBaixo;
 
     private List<ImageView> img_portas;
 
-
+    private boolean terminarTestes;
 
 
     @FXML
     public void initialize(URL location, ResourceBundle resources) {
+        terminarTestes = false;
         img_porta = new Image(new File("Recursos/Imagens/porta_fechada.png").toURI().toString(), true);
         img_carro = new Image(new File("Recursos/Imagens/porta_carro.png").toURI().toString(), true);
         img_cabra = new Image(new File("Recursos/Imagens/porta_cabra.png").toURI().toString(), true);
@@ -90,18 +94,33 @@ public class janelaTestesController implements Initializable{
 
     private void novoTeste(){
         testes.addTeste();
-        //initialize();
+        resetDisplay();
+    }
+
+    private void resetDisplay() {
+        label_resultadoDoTeste.setVisible(false);
+        resetDisplayPortas();
+    }
+
+    private void resetDisplayPortas() {
+        for (ImageView img : img_portas) {
+            img.setImage(img_porta);
+            img.getStyleClass().clear();
+            img.getStyleClass().add("img_porta");
+        }
     }
 
     private void verificaPortas(){
 
         Thread thread = new Thread(){
             public void run(){
+            while(!terminarTestes){
                 Porta porta;
                 while(!testes.getTesteAtual().isTerminado()) {
                     for (ImageView img : img_portas) {
                         porta = testes.getTesteAtual().getPortas().get(getIndiceDeImg(img));
                         if (porta.isSelecionada()) img.getStyleClass().add("img_portaSelecionada");
+                        img.setImage(img_porta);
                     }
 
                 }
@@ -113,6 +132,8 @@ public class janelaTestesController implements Initializable{
                     else
                         img.setImage(img_cabra);
                 }
+            }
+
 
                 Thread.currentThread().interrupt();
                 return;
@@ -123,6 +144,13 @@ public class janelaTestesController implements Initializable{
         thread.start();
 
     }
+
+
+    @FXML
+    private void acao_botaoTentarNovamente(){
+        novoTeste();
+    }
+
 
     @FXML
     private void acao_botaoManterEscolhaInicial(){
